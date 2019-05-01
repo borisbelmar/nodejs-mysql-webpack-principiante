@@ -1,3 +1,4 @@
+// Almacenamiento de los datos de conexón MySQL
 const mysql = require('mysql');
 
 module.exports = () => {
