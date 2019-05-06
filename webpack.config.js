@@ -4,4 +4,4 @@ module.exports = {
         path: __dirname + '/build/js',
         filename: 'output.js'
     }
-}
+};
