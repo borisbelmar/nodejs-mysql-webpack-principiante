@@ -4,12 +4,6 @@ USE news_portal;
 
 SHOW TABLES;
 
-CREATE DATABASE news_portal;
-
-USE news_portal;
-
-SHOW TABLES;
-
 CREATE TABLE news (
   id_news INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   title VARCHAR(100),

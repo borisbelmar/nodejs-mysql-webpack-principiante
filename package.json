@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "nodemon": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "Boris Belmar <borisbelmarm@gmail.com>",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/borisbelmar/nodejs-mysql-webpack-principiante#readme",
   "description": "",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "mysql": "^2.17.1"
   },
